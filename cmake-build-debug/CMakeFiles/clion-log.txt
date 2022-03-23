@@ -11,6 +11,7 @@
     -- src/20220319-5.cpp will be compiled to bin/20220319-5
     -- src/20220319-7-.cpp will be compiled to bin/20220319-7-
     -- src/20220319-8-.cpp will be compiled to bin/20220319-8-
+    -- src/20220326-1.cpp will be compiled to bin/20220326-1
     -- src/luoguP1007.cpp will be compiled to bin/luoguP1007
     -- src/macro_test.cpp will be compiled to bin/macro_test
     -- src/main.cpp will be compiled to bin/main
