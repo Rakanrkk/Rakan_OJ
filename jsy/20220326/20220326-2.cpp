@@ -27,6 +27,7 @@ typedef long long LL;
 typedef unsigned long long ULL;
 int main()
 {
-    cout<<3880;
+
+
     return 0;
 }
