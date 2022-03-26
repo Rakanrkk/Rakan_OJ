@@ -701,6 +701,39 @@ build 20220326-5.exe: CXX_EXECUTABLE_LINKER__20220326-5_Debug CMakeFiles/2022032
   TARGET_PDB = 20220326-5.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 20220326-6
+
+
+#############################################
+# Order-only phony target for 20220326-6
+
+build cmake_object_order_depends_target_20220326-6: phony || CMakeFiles/20220326-6.dir
+
+build CMakeFiles/20220326-6.dir/jsy/20220326/20220326-6.cpp.obj: CXX_COMPILER__20220326-6_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220326/20220326-6.cpp || cmake_object_order_depends_target_20220326-6
+  DEP_FILE = CMakeFiles\20220326-6.dir\jsy\20220326\20220326-6.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\20220326-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\20220326-6.dir\jsy\20220326
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20220326-6
+
+
+#############################################
+# Link the executable 20220326-6.exe
+
+build 20220326-6.exe: CXX_EXECUTABLE_LINKER__20220326-6_Debug CMakeFiles/20220326-6.dir/jsy/20220326/20220326-6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\20220326-6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 20220326-6.exe
+  TARGET_IMPLIB = lib20220326-6.dll.a
+  TARGET_PDB = 20220326-6.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target macro_test
 
 
@@ -851,6 +884,8 @@ build 20220326-5: phony 20220326-5.exe
 
 build 20220326-5-1: phony 20220326-5-1.exe
 
+build 20220326-6: phony 20220326-6.exe
+
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build bcyjb: phony bcyjb.exe
@@ -879,7 +914,7 @@ build test: phony test.exe
 #############################################
 # Folder: C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug
 
-build all: phony bcyjb.exe boxs.exe class_learn.exe CMakeCXXCompilerId.exe 20220319-3.exe fuctions.exe 20220319-1.exe 20220319-2.exe luoguP1007.exe 20220319-4.exe 20220319-5.exe 20220319-7-.exe 20220319-8-.exe 20220326-1.exe root.exe 20220326-2.exe 20220326-5-1.exe 20220326-3.exe 20220326-4.exe 20220326-5.exe macro_test.exe main.exe test.exe
+build all: phony bcyjb.exe boxs.exe class_learn.exe CMakeCXXCompilerId.exe 20220319-3.exe fuctions.exe 20220319-1.exe 20220319-2.exe luoguP1007.exe 20220319-4.exe 20220319-5.exe 20220319-7-.exe 20220319-8-.exe 20220326-1.exe root.exe 20220326-2.exe 20220326-5-1.exe 20220326-3.exe 20220326-4.exe 20220326-5.exe 20220326-6.exe macro_test.exe main.exe test.exe
 
 # =============================================================================
 # Built-in targets
