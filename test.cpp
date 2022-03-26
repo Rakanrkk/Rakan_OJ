@@ -26,8 +26,20 @@ bool judge(string s)
     }
     return 0;
 }
+bool ifwmpf(long long n)
+{
+    while(n)
+    {
+        if( n%10!=1 && n%10!=4 && n%10!=9 )
+        {
+            return 0;
+        }
+        n/=10;
+    }
+    return 1;
+}
 int main()
 {
-    cout<<judge("23333");
+    cout<<ifwmpf(144);
     return 0;
 }
