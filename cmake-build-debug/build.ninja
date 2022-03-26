@@ -503,6 +503,72 @@ build 20220326-1.exe: CXX_EXECUTABLE_LINKER__20220326-1_Debug CMakeFiles/2022032
   TARGET_PDB = 20220326-1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target root
+
+
+#############################################
+# Order-only phony target for root
+
+build cmake_object_order_depends_target_root: phony || CMakeFiles/root.dir
+
+build CMakeFiles/root.dir/root.cpp.obj: CXX_COMPILER__root_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/root.cpp || cmake_object_order_depends_target_root
+  DEP_FILE = CMakeFiles\root.dir\root.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\root.dir
+  OBJECT_FILE_DIR = CMakeFiles\root.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target root
+
+
+#############################################
+# Link the executable root.exe
+
+build root.exe: CXX_EXECUTABLE_LINKER__root_Debug CMakeFiles/root.dir/root.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\root.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = root.exe
+  TARGET_IMPLIB = libroot.dll.a
+  TARGET_PDB = root.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 20220326-2
+
+
+#############################################
+# Order-only phony target for 20220326-2
+
+build cmake_object_order_depends_target_20220326-2: phony || CMakeFiles/20220326-2.dir
+
+build CMakeFiles/20220326-2.dir/jsy/20220326/20220326-2.cpp.obj: CXX_COMPILER__20220326-2_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220326/20220326-2.cpp || cmake_object_order_depends_target_20220326-2
+  DEP_FILE = CMakeFiles\20220326-2.dir\jsy\20220326\20220326-2.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\20220326-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\20220326-2.dir\jsy\20220326
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20220326-2
+
+
+#############################################
+# Link the executable 20220326-2.exe
+
+build 20220326-2.exe: CXX_EXECUTABLE_LINKER__20220326-2_Debug CMakeFiles/20220326-2.dir/jsy/20220326/20220326-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\20220326-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 20220326-2.exe
+  TARGET_IMPLIB = lib20220326-2.dll.a
+  TARGET_PDB = 20220326-2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target macro_test
 
 
@@ -580,39 +646,6 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_PDB = main.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target root
-
-
-#############################################
-# Order-only phony target for root
-
-build cmake_object_order_depends_target_root: phony || CMakeFiles/root.dir
-
-build CMakeFiles/root.dir/root.cpp.obj: CXX_COMPILER__root_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/root.cpp || cmake_object_order_depends_target_root
-  DEP_FILE = CMakeFiles\root.dir\root.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\root.dir
-  OBJECT_FILE_DIR = CMakeFiles\root.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target root
-
-
-#############################################
-# Link the executable root.exe
-
-build root.exe: CXX_EXECUTABLE_LINKER__root_Debug CMakeFiles/root.dir/root.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\root.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = root.exe
-  TARGET_IMPLIB = libroot.dll.a
-  TARGET_PDB = root.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target test
 
 
@@ -676,6 +709,8 @@ build 20220319-8-: phony 20220319-8-.exe
 
 build 20220326-1: phony 20220326-1.exe
 
+build 20220326-2: phony 20220326-2.exe
+
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build bcyjb: phony bcyjb.exe
@@ -704,7 +739,7 @@ build test: phony test.exe
 #############################################
 # Folder: C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug
 
-build all: phony bcyjb.exe boxs.exe class_learn.exe CMakeCXXCompilerId.exe 20220319-3.exe fuctions.exe 20220319-1.exe 20220319-2.exe luoguP1007.exe 20220319-4.exe 20220319-5.exe 20220319-7-.exe 20220319-8-.exe 20220326-1.exe macro_test.exe main.exe root.exe test.exe
+build all: phony bcyjb.exe boxs.exe class_learn.exe CMakeCXXCompilerId.exe 20220319-3.exe fuctions.exe 20220319-1.exe 20220319-2.exe luoguP1007.exe 20220319-4.exe 20220319-5.exe 20220319-7-.exe 20220319-8-.exe 20220326-1.exe root.exe 20220326-2.exe macro_test.exe main.exe test.exe
 
 # =============================================================================
 # Built-in targets

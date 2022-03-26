@@ -27,7 +27,26 @@ typedef long long LL;
 typedef unsigned long long ULL;
 int main()
 {
-
+    int p=10000;
+    int flag=0;
+    int tsum=0;
+    for(int k=1;k<20;k++)
+    {
+        while(p)
+        {
+            p-=k;
+            flag+=k;
+            tsum+=1;
+            if(flag>=100){
+                tsum+=k;
+                flag-=100;
+            }
+        }
+        cout<<k<<' '<<tsum<<endl;
+        p=1000000;
+        flag=0;
+        tsum=0;
+    }
 
     return 0;
 }
