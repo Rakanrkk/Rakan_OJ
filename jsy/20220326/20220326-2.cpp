@@ -32,7 +32,7 @@ int main()
     int tsum=0;
     for(int k=1;k<20;k++)
     {
-        while(p)
+        while(p>0)
         {
             p-=k;
             flag+=k;
@@ -43,7 +43,7 @@ int main()
             }
         }
         cout<<k<<' '<<tsum<<endl;
-        p=1000000;
+        p=10000;
         flag=0;
         tsum=0;
     }
