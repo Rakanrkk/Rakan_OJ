@@ -4,13 +4,6 @@
     -- src/class_learn.cpp will be compiled to bin/class_learn
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/fuctions.cpp will be compiled to bin/fuctions
-    -- src/20220319-1.cpp will be compiled to bin/20220319-1
-    -- src/20220319-2.cpp will be compiled to bin/20220319-2
-    -- src/20220319-3.cpp will be compiled to bin/20220319-3
-    -- src/20220319-4.cpp will be compiled to bin/20220319-4
-    -- src/20220319-5.cpp will be compiled to bin/20220319-5
-    -- src/20220319-7-.cpp will be compiled to bin/20220319-7-
-    -- src/20220319-8-.cpp will be compiled to bin/20220319-8-
     -- src/20220326-1.cpp will be compiled to bin/20220326-1
     -- src/20220326-2.cpp will be compiled to bin/20220326-2
     -- src/20220326-3.cpp will be compiled to bin/20220326-3
@@ -23,6 +16,8 @@
     -- src/main.cpp will be compiled to bin/main
     -- src/root.cpp will be compiled to bin/root
     -- src/test.cpp will be compiled to bin/test
+    -- src/2a.cpp will be compiled to bin/2a
+    -- src/2b.cpp will be compiled to bin/2b
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug

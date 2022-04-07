@@ -27,13 +27,21 @@ typedef long long LL;
 typedef unsigned long long ULL;
 int main()
 {
-    string in,out;
+    string in,out="";
     cin>>in;
     for (int i = 0; i < in.length(); ++i) {
-        if(in[i+1]>='1' && in[i+1]<='9' )
+        if(in[i+1]>='0' && in[i+1]<='9' )
         {
-
+            int n=in[i+1]-'0';
+            for(int j=0;j<n;j++)
+            {
+                out+=in[i];
+            }
+            i++;
+        }else{
+            out+=in[i];
         }
     }
+    cout<<out;
     return 0;
 }

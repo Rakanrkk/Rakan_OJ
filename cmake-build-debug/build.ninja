@@ -140,369 +140,6 @@ build class_learn.exe: CXX_EXECUTABLE_LINKER__class_learn_Debug CMakeFiles/class
   TARGET_PDB = class_learn.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target CMakeCXXCompilerId
-
-
-#############################################
-# Order-only phony target for CMakeCXXCompilerId
-
-build cmake_object_order_depends_target_CMakeCXXCompilerId: phony || CMakeFiles/CMakeCXXCompilerId.dir
-
-build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj: CXX_COMPILER__CMakeCXXCompilerId_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
-  DEP_FILE = CMakeFiles\CMakeCXXCompilerId.dir\CMakeFiles\3.21.1\CompilerIdCXX\CMakeCXXCompilerId.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
-  OBJECT_FILE_DIR = CMakeFiles\CMakeCXXCompilerId.dir\CMakeFiles\3.21.1\CompilerIdCXX
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target CMakeCXXCompilerId
-
-
-#############################################
-# Link the executable CMakeCXXCompilerId.exe
-
-build CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = CMakeCXXCompilerId.exe
-  TARGET_IMPLIB = libCMakeCXXCompilerId.dll.a
-  TARGET_PDB = CMakeCXXCompilerId.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220319-3
-
-
-#############################################
-# Order-only phony target for 20220319-3
-
-build cmake_object_order_depends_target_20220319-3: phony || CMakeFiles/20220319-3.dir
-
-build CMakeFiles/20220319-3.dir/jsy/20220319/20220319-3.cpp.obj: CXX_COMPILER__20220319-3_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220319/20220319-3.cpp || cmake_object_order_depends_target_20220319-3
-  DEP_FILE = CMakeFiles\20220319-3.dir\jsy\20220319\20220319-3.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220319-3.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220319-3.dir\jsy\20220319
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220319-3
-
-
-#############################################
-# Link the executable 20220319-3.exe
-
-build 20220319-3.exe: CXX_EXECUTABLE_LINKER__20220319-3_Debug CMakeFiles/20220319-3.dir/jsy/20220319/20220319-3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220319-3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220319-3.exe
-  TARGET_IMPLIB = lib20220319-3.dll.a
-  TARGET_PDB = 20220319-3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target fuctions
-
-
-#############################################
-# Order-only phony target for fuctions
-
-build cmake_object_order_depends_target_fuctions: phony || CMakeFiles/fuctions.dir
-
-build CMakeFiles/fuctions.dir/fuctions.cpp.obj: CXX_COMPILER__fuctions_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/fuctions.cpp || cmake_object_order_depends_target_fuctions
-  DEP_FILE = CMakeFiles\fuctions.dir\fuctions.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\fuctions.dir
-  OBJECT_FILE_DIR = CMakeFiles\fuctions.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target fuctions
-
-
-#############################################
-# Link the executable fuctions.exe
-
-build fuctions.exe: CXX_EXECUTABLE_LINKER__fuctions_Debug CMakeFiles/fuctions.dir/fuctions.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\fuctions.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = fuctions.exe
-  TARGET_IMPLIB = libfuctions.dll.a
-  TARGET_PDB = fuctions.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220319-1
-
-
-#############################################
-# Order-only phony target for 20220319-1
-
-build cmake_object_order_depends_target_20220319-1: phony || CMakeFiles/20220319-1.dir
-
-build CMakeFiles/20220319-1.dir/jsy/20220319/20220319-1.cpp.obj: CXX_COMPILER__20220319-1_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220319/20220319-1.cpp || cmake_object_order_depends_target_20220319-1
-  DEP_FILE = CMakeFiles\20220319-1.dir\jsy\20220319\20220319-1.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220319-1.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220319-1.dir\jsy\20220319
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220319-1
-
-
-#############################################
-# Link the executable 20220319-1.exe
-
-build 20220319-1.exe: CXX_EXECUTABLE_LINKER__20220319-1_Debug CMakeFiles/20220319-1.dir/jsy/20220319/20220319-1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220319-1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220319-1.exe
-  TARGET_IMPLIB = lib20220319-1.dll.a
-  TARGET_PDB = 20220319-1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220319-2
-
-
-#############################################
-# Order-only phony target for 20220319-2
-
-build cmake_object_order_depends_target_20220319-2: phony || CMakeFiles/20220319-2.dir
-
-build CMakeFiles/20220319-2.dir/jsy/20220319/20220319-2.cpp.obj: CXX_COMPILER__20220319-2_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220319/20220319-2.cpp || cmake_object_order_depends_target_20220319-2
-  DEP_FILE = CMakeFiles\20220319-2.dir\jsy\20220319\20220319-2.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220319-2.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220319-2.dir\jsy\20220319
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220319-2
-
-
-#############################################
-# Link the executable 20220319-2.exe
-
-build 20220319-2.exe: CXX_EXECUTABLE_LINKER__20220319-2_Debug CMakeFiles/20220319-2.dir/jsy/20220319/20220319-2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220319-2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220319-2.exe
-  TARGET_IMPLIB = lib20220319-2.dll.a
-  TARGET_PDB = 20220319-2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target luoguP1007
-
-
-#############################################
-# Order-only phony target for luoguP1007
-
-build cmake_object_order_depends_target_luoguP1007: phony || CMakeFiles/luoguP1007.dir
-
-build CMakeFiles/luoguP1007.dir/luoguP1007.cpp.obj: CXX_COMPILER__luoguP1007_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/luoguP1007.cpp || cmake_object_order_depends_target_luoguP1007
-  DEP_FILE = CMakeFiles\luoguP1007.dir\luoguP1007.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\luoguP1007.dir
-  OBJECT_FILE_DIR = CMakeFiles\luoguP1007.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target luoguP1007
-
-
-#############################################
-# Link the executable luoguP1007.exe
-
-build luoguP1007.exe: CXX_EXECUTABLE_LINKER__luoguP1007_Debug CMakeFiles/luoguP1007.dir/luoguP1007.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\luoguP1007.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = luoguP1007.exe
-  TARGET_IMPLIB = libluoguP1007.dll.a
-  TARGET_PDB = luoguP1007.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220319-4
-
-
-#############################################
-# Order-only phony target for 20220319-4
-
-build cmake_object_order_depends_target_20220319-4: phony || CMakeFiles/20220319-4.dir
-
-build CMakeFiles/20220319-4.dir/jsy/20220319/20220319-4.cpp.obj: CXX_COMPILER__20220319-4_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220319/20220319-4.cpp || cmake_object_order_depends_target_20220319-4
-  DEP_FILE = CMakeFiles\20220319-4.dir\jsy\20220319\20220319-4.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220319-4.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220319-4.dir\jsy\20220319
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220319-4
-
-
-#############################################
-# Link the executable 20220319-4.exe
-
-build 20220319-4.exe: CXX_EXECUTABLE_LINKER__20220319-4_Debug CMakeFiles/20220319-4.dir/jsy/20220319/20220319-4.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220319-4.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220319-4.exe
-  TARGET_IMPLIB = lib20220319-4.dll.a
-  TARGET_PDB = 20220319-4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220319-5
-
-
-#############################################
-# Order-only phony target for 20220319-5
-
-build cmake_object_order_depends_target_20220319-5: phony || CMakeFiles/20220319-5.dir
-
-build CMakeFiles/20220319-5.dir/jsy/20220319/20220319-5.cpp.obj: CXX_COMPILER__20220319-5_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220319/20220319-5.cpp || cmake_object_order_depends_target_20220319-5
-  DEP_FILE = CMakeFiles\20220319-5.dir\jsy\20220319\20220319-5.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220319-5.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220319-5.dir\jsy\20220319
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220319-5
-
-
-#############################################
-# Link the executable 20220319-5.exe
-
-build 20220319-5.exe: CXX_EXECUTABLE_LINKER__20220319-5_Debug CMakeFiles/20220319-5.dir/jsy/20220319/20220319-5.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220319-5.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220319-5.exe
-  TARGET_IMPLIB = lib20220319-5.dll.a
-  TARGET_PDB = 20220319-5.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220319-7-
-
-
-#############################################
-# Order-only phony target for 20220319-7-
-
-build cmake_object_order_depends_target_20220319-7-: phony || CMakeFiles/20220319-7-.dir
-
-build CMakeFiles/20220319-7-.dir/jsy/20220319/20220319-7-.cpp.obj: CXX_COMPILER__20220319-7-_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220319/20220319-7-.cpp || cmake_object_order_depends_target_20220319-7-
-  DEP_FILE = CMakeFiles\20220319-7-.dir\jsy\20220319\20220319-7-.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220319-7-.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220319-7-.dir\jsy\20220319
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220319-7-
-
-
-#############################################
-# Link the executable 20220319-7-.exe
-
-build 20220319-7-.exe: CXX_EXECUTABLE_LINKER__20220319-7-_Debug CMakeFiles/20220319-7-.dir/jsy/20220319/20220319-7-.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220319-7-.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220319-7-.exe
-  TARGET_IMPLIB = lib20220319-7-.dll.a
-  TARGET_PDB = 20220319-7-.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220319-8-
-
-
-#############################################
-# Order-only phony target for 20220319-8-
-
-build cmake_object_order_depends_target_20220319-8-: phony || CMakeFiles/20220319-8-.dir
-
-build CMakeFiles/20220319-8-.dir/jsy/20220319/20220319-8-.cpp.obj: CXX_COMPILER__20220319-8-_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220319/20220319-8-.cpp || cmake_object_order_depends_target_20220319-8-
-  DEP_FILE = CMakeFiles\20220319-8-.dir\jsy\20220319\20220319-8-.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220319-8-.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220319-8-.dir\jsy\20220319
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220319-8-
-
-
-#############################################
-# Link the executable 20220319-8-.exe
-
-build 20220319-8-.exe: CXX_EXECUTABLE_LINKER__20220319-8-_Debug CMakeFiles/20220319-8-.dir/jsy/20220319/20220319-8-.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220319-8-.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220319-8-.exe
-  TARGET_IMPLIB = lib20220319-8-.dll.a
-  TARGET_PDB = 20220319-8-.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 20220326-1
-
-
-#############################################
-# Order-only phony target for 20220326-1
-
-build cmake_object_order_depends_target_20220326-1: phony || CMakeFiles/20220326-1.dir
-
-build CMakeFiles/20220326-1.dir/jsy/20220326/20220326-1.cpp.obj: CXX_COMPILER__20220326-1_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220326/20220326-1.cpp || cmake_object_order_depends_target_20220326-1
-  DEP_FILE = CMakeFiles\20220326-1.dir\jsy\20220326\20220326-1.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\20220326-1.dir
-  OBJECT_FILE_DIR = CMakeFiles\20220326-1.dir\jsy\20220326
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 20220326-1
-
-
-#############################################
-# Link the executable 20220326-1.exe
-
-build 20220326-1.exe: CXX_EXECUTABLE_LINKER__20220326-1_Debug CMakeFiles/20220326-1.dir/jsy/20220326/20220326-1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\20220326-1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 20220326-1.exe
-  TARGET_IMPLIB = lib20220326-1.dll.a
-  TARGET_PDB = 20220326-1.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target root
 
 
@@ -567,6 +204,105 @@ build 20220326-2.exe: CXX_EXECUTABLE_LINKER__20220326-2_Debug CMakeFiles/2022032
   TARGET_FILE = 20220326-2.exe
   TARGET_IMPLIB = lib20220326-2.dll.a
   TARGET_PDB = 20220326-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CMakeCXXCompilerId
+
+
+#############################################
+# Order-only phony target for CMakeCXXCompilerId
+
+build cmake_object_order_depends_target_CMakeCXXCompilerId: phony || CMakeFiles/CMakeCXXCompilerId.dir
+
+build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj: CXX_COMPILER__CMakeCXXCompilerId_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles\CMakeCXXCompilerId.dir\CMakeFiles\3.21.1\CompilerIdCXX\CMakeCXXCompilerId.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles\CMakeCXXCompilerId.dir\CMakeFiles\3.21.1\CompilerIdCXX
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CMakeCXXCompilerId
+
+
+#############################################
+# Link the executable CMakeCXXCompilerId.exe
+
+build CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CMakeCXXCompilerId.exe
+  TARGET_IMPLIB = libCMakeCXXCompilerId.dll.a
+  TARGET_PDB = CMakeCXXCompilerId.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 20220326-1
+
+
+#############################################
+# Order-only phony target for 20220326-1
+
+build cmake_object_order_depends_target_20220326-1: phony || CMakeFiles/20220326-1.dir
+
+build CMakeFiles/20220326-1.dir/jsy/20220326/20220326-1.cpp.obj: CXX_COMPILER__20220326-1_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/jsy/20220326/20220326-1.cpp || cmake_object_order_depends_target_20220326-1
+  DEP_FILE = CMakeFiles\20220326-1.dir\jsy\20220326\20220326-1.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\20220326-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\20220326-1.dir\jsy\20220326
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20220326-1
+
+
+#############################################
+# Link the executable 20220326-1.exe
+
+build 20220326-1.exe: CXX_EXECUTABLE_LINKER__20220326-1_Debug CMakeFiles/20220326-1.dir/jsy/20220326/20220326-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\20220326-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 20220326-1.exe
+  TARGET_IMPLIB = lib20220326-1.dll.a
+  TARGET_PDB = 20220326-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fuctions
+
+
+#############################################
+# Order-only phony target for fuctions
+
+build cmake_object_order_depends_target_fuctions: phony || CMakeFiles/fuctions.dir
+
+build CMakeFiles/fuctions.dir/fuctions.cpp.obj: CXX_COMPILER__fuctions_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/fuctions.cpp || cmake_object_order_depends_target_fuctions
+  DEP_FILE = CMakeFiles\fuctions.dir\fuctions.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\fuctions.dir
+  OBJECT_FILE_DIR = CMakeFiles\fuctions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fuctions
+
+
+#############################################
+# Link the executable fuctions.exe
+
+build fuctions.exe: CXX_EXECUTABLE_LINKER__fuctions_Debug CMakeFiles/fuctions.dir/fuctions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fuctions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fuctions.exe
+  TARGET_IMPLIB = libfuctions.dll.a
+  TARGET_PDB = fuctions.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 20220326-5-1
@@ -734,6 +470,39 @@ build 20220326-6.exe: CXX_EXECUTABLE_LINKER__20220326-6_Debug CMakeFiles/2022032
   TARGET_PDB = 20220326-6.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target luoguP1007
+
+
+#############################################
+# Order-only phony target for luoguP1007
+
+build cmake_object_order_depends_target_luoguP1007: phony || CMakeFiles/luoguP1007.dir
+
+build CMakeFiles/luoguP1007.dir/luoguP1007.cpp.obj: CXX_COMPILER__luoguP1007_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/luoguP1007.cpp || cmake_object_order_depends_target_luoguP1007
+  DEP_FILE = CMakeFiles\luoguP1007.dir\luoguP1007.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\luoguP1007.dir
+  OBJECT_FILE_DIR = CMakeFiles\luoguP1007.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target luoguP1007
+
+
+#############################################
+# Link the executable luoguP1007.exe
+
+build luoguP1007.exe: CXX_EXECUTABLE_LINKER__luoguP1007_Debug CMakeFiles/luoguP1007.dir/luoguP1007.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\luoguP1007.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = luoguP1007.exe
+  TARGET_IMPLIB = libluoguP1007.dll.a
+  TARGET_PDB = luoguP1007.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target macro_test
 
 
@@ -843,6 +612,72 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.o
   TARGET_IMPLIB = libtest.dll.a
   TARGET_PDB = test.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2a
+
+
+#############################################
+# Order-only phony target for 2a
+
+build cmake_object_order_depends_target_2a: phony || CMakeFiles/2a.dir
+
+build CMakeFiles/2a.dir/xsl/week2/2a.cpp.obj: CXX_COMPILER__2a_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/xsl/week2/2a.cpp || cmake_object_order_depends_target_2a
+  DEP_FILE = CMakeFiles\2a.dir\xsl\week2\2a.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\2a.dir
+  OBJECT_FILE_DIR = CMakeFiles\2a.dir\xsl\week2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2a
+
+
+#############################################
+# Link the executable 2a.exe
+
+build 2a.exe: CXX_EXECUTABLE_LINKER__2a_Debug CMakeFiles/2a.dir/xsl/week2/2a.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2a.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2a.exe
+  TARGET_IMPLIB = lib2a.dll.a
+  TARGET_PDB = 2a.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2b
+
+
+#############################################
+# Order-only phony target for 2b
+
+build cmake_object_order_depends_target_2b: phony || CMakeFiles/2b.dir
+
+build CMakeFiles/2b.dir/xsl/week2/2b.cpp.obj: CXX_COMPILER__2b_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/xsl/week2/2b.cpp || cmake_object_order_depends_target_2b
+  DEP_FILE = CMakeFiles\2b.dir\xsl\week2\2b.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\2b.dir
+  OBJECT_FILE_DIR = CMakeFiles\2b.dir\xsl\week2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2b
+
+
+#############################################
+# Link the executable 2b.exe
+
+build 2b.exe: CXX_EXECUTABLE_LINKER__2b_Debug CMakeFiles/2b.dir/xsl/week2/2b.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2b.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2b.exe
+  TARGET_IMPLIB = lib2b.dll.a
+  TARGET_PDB = 2b.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -858,20 +693,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 20220319-1: phony 20220319-1.exe
-
-build 20220319-2: phony 20220319-2.exe
-
-build 20220319-3: phony 20220319-3.exe
-
-build 20220319-4: phony 20220319-4.exe
-
-build 20220319-5: phony 20220319-5.exe
-
-build 20220319-7-: phony 20220319-7-.exe
-
-build 20220319-8-: phony 20220319-8-.exe
-
 build 20220326-1: phony 20220326-1.exe
 
 build 20220326-2: phony 20220326-2.exe
@@ -885,6 +706,10 @@ build 20220326-5: phony 20220326-5.exe
 build 20220326-5-1: phony 20220326-5-1.exe
 
 build 20220326-6: phony 20220326-6.exe
+
+build 2a: phony 2a.exe
+
+build 2b: phony 2b.exe
 
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
@@ -914,7 +739,7 @@ build test: phony test.exe
 #############################################
 # Folder: C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug
 
-build all: phony bcyjb.exe boxs.exe class_learn.exe CMakeCXXCompilerId.exe 20220319-3.exe fuctions.exe 20220319-1.exe 20220319-2.exe luoguP1007.exe 20220319-4.exe 20220319-5.exe 20220319-7-.exe 20220319-8-.exe 20220326-1.exe root.exe 20220326-2.exe 20220326-5-1.exe 20220326-3.exe 20220326-4.exe 20220326-5.exe 20220326-6.exe macro_test.exe main.exe test.exe
+build all: phony bcyjb.exe boxs.exe class_learn.exe root.exe 20220326-2.exe CMakeCXXCompilerId.exe 20220326-1.exe fuctions.exe 20220326-5-1.exe 20220326-3.exe 20220326-4.exe 20220326-5.exe 20220326-6.exe luoguP1007.exe macro_test.exe main.exe test.exe 2a.exe 2b.exe
 
 # =============================================================================
 # Built-in targets
