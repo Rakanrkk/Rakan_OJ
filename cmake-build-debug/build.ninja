@@ -206,6 +206,39 @@ build 20220326-2.exe: CXX_EXECUTABLE_LINKER__20220326-2_Debug CMakeFiles/2022032
   TARGET_PDB = 20220326-2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 2btest
+
+
+#############################################
+# Order-only phony target for 2btest
+
+build cmake_object_order_depends_target_2btest: phony || CMakeFiles/2btest.dir
+
+build CMakeFiles/2btest.dir/xsl/week2/2btest.cpp.obj: CXX_COMPILER__2btest_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/xsl/week2/2btest.cpp || cmake_object_order_depends_target_2btest
+  DEP_FILE = CMakeFiles\2btest.dir\xsl\week2\2btest.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\2btest.dir
+  OBJECT_FILE_DIR = CMakeFiles\2btest.dir\xsl\week2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2btest
+
+
+#############################################
+# Link the executable 2btest.exe
+
+build 2btest.exe: CXX_EXECUTABLE_LINKER__2btest_Debug CMakeFiles/2btest.dir/xsl/week2/2btest.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2btest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2btest.exe
+  TARGET_IMPLIB = lib2btest.dll.a
+  TARGET_PDB = 2btest.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
@@ -646,37 +679,37 @@ build 2a.exe: CXX_EXECUTABLE_LINKER__2a_Debug CMakeFiles/2a.dir/xsl/week2/2a.cpp
   TARGET_PDB = 2a.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2b
+# Object build statements for EXECUTABLE target 2b_Disjoint-set
 
 
 #############################################
-# Order-only phony target for 2b
+# Order-only phony target for 2b_Disjoint-set
 
-build cmake_object_order_depends_target_2b: phony || CMakeFiles/2b.dir
+build cmake_object_order_depends_target_2b_Disjoint-set: phony || CMakeFiles/2b_Disjoint-set.dir
 
-build CMakeFiles/2b.dir/xsl/week2/2b.cpp.obj: CXX_COMPILER__2b_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/xsl/week2/2b.cpp || cmake_object_order_depends_target_2b
-  DEP_FILE = CMakeFiles\2b.dir\xsl\week2\2b.cpp.obj.d
+build CMakeFiles/2b_Disjoint-set.dir/xsl/week2/2b_Disjoint-set.cpp.obj: CXX_COMPILER__2b_Disjoint-set_Debug C$:/Users/Rakan/CLionProjects/Rakan_oj/xsl/week2/2b_Disjoint-set.cpp || cmake_object_order_depends_target_2b_Disjoint-set
+  DEP_FILE = CMakeFiles\2b_Disjoint-set.dir\xsl\week2\2b_Disjoint-set.cpp.obj.d
   FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\2b.dir
-  OBJECT_FILE_DIR = CMakeFiles\2b.dir\xsl\week2
+  OBJECT_DIR = CMakeFiles\2b_Disjoint-set.dir
+  OBJECT_FILE_DIR = CMakeFiles\2b_Disjoint-set.dir\xsl\week2
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2b
+# Link build statements for EXECUTABLE target 2b_Disjoint-set
 
 
 #############################################
-# Link the executable 2b.exe
+# Link the executable 2b_Disjoint-set.exe
 
-build 2b.exe: CXX_EXECUTABLE_LINKER__2b_Debug CMakeFiles/2b.dir/xsl/week2/2b.cpp.obj
+build 2b_Disjoint-set.exe: CXX_EXECUTABLE_LINKER__2b_Disjoint-set_Debug CMakeFiles/2b_Disjoint-set.dir/xsl/week2/2b_Disjoint-set.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\2b.dir
+  OBJECT_DIR = CMakeFiles\2b_Disjoint-set.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 2b.exe
-  TARGET_IMPLIB = lib2b.dll.a
-  TARGET_PDB = 2b.exe.dbg
+  TARGET_FILE = 2b_Disjoint-set.exe
+  TARGET_IMPLIB = lib2b_Disjoint-set.dll.a
+  TARGET_PDB = 2b_Disjoint-set.exe.dbg
 
 
 #############################################
@@ -709,7 +742,9 @@ build 20220326-6: phony 20220326-6.exe
 
 build 2a: phony 2a.exe
 
-build 2b: phony 2b.exe
+build 2b_Disjoint-set: phony 2b_Disjoint-set.exe
+
+build 2btest: phony 2btest.exe
 
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
@@ -739,7 +774,7 @@ build test: phony test.exe
 #############################################
 # Folder: C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug
 
-build all: phony bcyjb.exe boxs.exe class_learn.exe root.exe 20220326-2.exe CMakeCXXCompilerId.exe 20220326-1.exe fuctions.exe 20220326-5-1.exe 20220326-3.exe 20220326-4.exe 20220326-5.exe 20220326-6.exe luoguP1007.exe macro_test.exe main.exe test.exe 2a.exe 2b.exe
+build all: phony bcyjb.exe boxs.exe class_learn.exe root.exe 20220326-2.exe 2btest.exe CMakeCXXCompilerId.exe 20220326-1.exe fuctions.exe 20220326-5-1.exe 20220326-3.exe 20220326-4.exe 20220326-5.exe 20220326-6.exe luoguP1007.exe macro_test.exe main.exe test.exe 2a.exe 2b_Disjoint-set.exe
 
 # =============================================================================
 # Built-in targets

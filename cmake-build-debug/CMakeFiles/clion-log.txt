@@ -17,7 +17,8 @@
     -- src/root.cpp will be compiled to bin/root
     -- src/test.cpp will be compiled to bin/test
     -- src/2a.cpp will be compiled to bin/2a
-    -- src/2b.cpp will be compiled to bin/2b
+    -- src/2b_Disjoint-set.cpp will be compiled to bin/2b_Disjoint-set
+    -- src/2btest.cpp will be compiled to bin/2btest
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug
