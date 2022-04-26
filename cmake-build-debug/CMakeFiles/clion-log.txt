@@ -1,4 +1,5 @@
 "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\Rakan\CLionProjects\Rakan_oj
+    -- src/bcy.cpp will be compiled to bin/bcy
     -- src/bcyjb.cpp will be compiled to bin/bcyjb
     -- src/boxs.cpp will be compiled to bin/boxs
     -- src/class_learn.cpp will be compiled to bin/class_learn
@@ -18,7 +19,8 @@
     -- src/test.cpp will be compiled to bin/test
     -- src/2a.cpp will be compiled to bin/2a
     -- src/2b_Disjoint-set.cpp will be compiled to bin/2b_Disjoint-set
-    -- src/2btest.cpp will be compiled to bin/2btest
+    -- src/3-1.cpp will be compiled to bin/3-1
+    -- src/4-1.cpp will be compiled to bin/4-1
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug

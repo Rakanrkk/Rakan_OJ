@@ -1,9 +1,10 @@
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/bcyjb.dir
+C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/luoguP1007.dir
+C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/bcy.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/boxs.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/class_learn.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/root.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/20220326-2.dir
-C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/2btest.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/20220326-1.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/fuctions.dir
@@ -12,11 +13,12 @@ C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/20220326-3.di
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/20220326-4.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/20220326-5.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/20220326-6.dir
-C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/luoguP1007.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/macro_test.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/main.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/test.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/2a.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/2b_Disjoint-set.dir
+C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/3-1.dir
+C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/4-1.dir
 C:/Users/Rakan/CLionProjects/Rakan_oj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
