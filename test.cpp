@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     string s="123";
-    s.erase(1);
-    cout<<s;
+
+    cout<<s[s.length()-1];
     return 0;
 }
